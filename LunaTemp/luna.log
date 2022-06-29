@@ -1,0 +1,172 @@
+report@config:load 7.29
+Authorized using stored user info.
+report@account:authorize 6.19
+[ Warn ] $Navigate to the Code > Runtime Analysis tab and hit "Start Analysis"
+Exporting assets from Unity........
+[ Stage1 ] Assets exported from Unity and staged for further processing
+report@unity:export 5046.97
+Resources:
+{}
+report@assets:stage2 256.55
+report@assets:stage3 82.84
+[ Stage2 ] Assets postprocessed and bundled successfully
+report@code:compose 14.31
+report@config:unity 0.10
+Microsoft (R) Build Engine version 16.10.1 for Mono
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+Build started 4/27/2022 11:58:14 AM.
+
+Project "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/Scripts.csproj" on node 1 (Rebuild target(s)).
+
+CoreClean:
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityScriptsCompiler.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityScriptsCompiler.pdb".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.Html5.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.WebGL.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/DOTween.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Newtonsoft.Json.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.Core.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.dom.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.es5.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.scripthost.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityEngine.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityEngine.UI.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityEngine.UniversalRenderPipeline.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.xml".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.Html5.xml".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.WebGL.xml".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Newtonsoft.Json.xml".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.Core.xml".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.dom.xml".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.es5.xml".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.scripthost.xml".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/TextMeshPro.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/Scripts.csproj.AssemblyReference.cache".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/Scripts.csproj.CoreCompileInputs.cache".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/Scripts.csproj.CopyComplete".
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/UnityScriptsCompiler.dll".
+
+  Deleting file "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/UnityScriptsCompiler.pdb".
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+
+  /Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/Roslyn/csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2019;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2019_4;UNITY_2019_4_33 /highentropyva+ /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.Core.17.9.13-luna/lib/net40/Bridge.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.Html5.17.9.0/lib/net40/Bridge.Html5.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.WebGL.1.22.0/lib/net40/Bridge.WebGL.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/DOTween.1.2.235/lib/net40/DOTween.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.Newtonsoft.Json.1.16.0/lib/net40/Newtonsoft.Json.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.Core.1.6.6733/lib/net40/Retyped.Core.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.dom.2.8.6733/lib/net40/Retyped.dom.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.es5.2.8.6733/lib/net40/Retyped.es5.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.scripthost.2.8.6733/lib/net40/Retyped.scripthost.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/com.unity.textmeshpro/2.0.0/TextMeshPro.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/Vendor/UnityEngine.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/com.unity.ui/1.2.1/UnityEngine.UI.dll /reference:/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/com.unity.urp/7.6/UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj/Debug/UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /utf8output /langversion:7.2 /Users/alexluna/Downloads/a++/astUnity/Assets/Scripts/Cell.cs /Users/alexluna/Downloads/a++/astUnity/Assets/Scripts/Grid.cs /Users/alexluna/Downloads/a++/astUnity/Assets/Scripts/Obstacle.cs /Users/alexluna/Downloads/a++/astUnity/Assets/Scripts/ZeroLayer.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+
+  Using shared compilation with compiler from directory: /Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/Roslyn
+
+/Users/alexluna/Downloads/a++/astUnity/Assets/Scripts/Grid.cs(124,5): warning CS0618: 'LineRenderer.SetVertexCount(int)' is obsolete: 'Use positionCount instead.' [/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/Scripts.csproj]
+
+_CopyFilesMarkedCopyLocal:
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.WebGL.1.22.0/lib/net40/Bridge.WebGL.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.WebGL.dll".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.Core.17.9.13-luna/lib/net40/Bridge.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.dll".
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.Html5.17.9.0/lib/net40/Bridge.Html5.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.Html5.dll".
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/DOTween.1.2.235/lib/net40/DOTween.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/DOTween.dll".
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.Core.1.6.6733/lib/net40/Retyped.Core.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.Core.dll".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.Newtonsoft.Json.1.16.0/lib/net40/Newtonsoft.Json.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Newtonsoft.Json.dll".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.es5.2.8.6733/lib/net40/Retyped.es5.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.es5.dll".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/com.unity.textmeshpro/2.0.0/TextMeshPro.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/TextMeshPro.dll".
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/Vendor/UnityEngine.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityEngine.dll".
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.dom.2.8.6733/lib/net40/Retyped.dom.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.dom.dll".
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.scripthost.2.8.6733/lib/net40/Retyped.scripthost.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.scripthost.dll".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/com.unity.urp/7.6/UnityEngine.UniversalRenderPipeline.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityEngine.UniversalRenderPipeline.dll".
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/com.unity.ui/1.2.1/UnityEngine.UI.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityEngine.UI.dll".
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.Core.17.9.13-luna/lib/net40/Bridge.xml" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.xml".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.Html5.17.9.0/lib/net40/Bridge.Html5.xml" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.Html5.xml".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.WebGL.1.22.0/lib/net40/Bridge.WebGL.xml" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Bridge.WebGL.xml".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Bridge.Newtonsoft.Json.1.16.0/lib/net40/Newtonsoft.Json.xml" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Newtonsoft.Json.xml".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.Core.1.6.6733/lib/net40/Retyped.Core.xml" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.Core.xml".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.dom.2.8.6733/lib/net40/Retyped.dom.xml" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.dom.xml".
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.es5.2.8.6733/lib/net40/Retyped.es5.xml" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.es5.xml".
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/packages/Retyped.scripthost.2.8.6733/lib/net40/Retyped.scripthost.xml" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/Retyped.scripthost.xml".
+
+  Creating "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/Scripts.csproj.CopyComplete" because "AlwaysCreate" was specified.
+
+CopyFilesToOutputDirectory:
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/UnityScriptsCompiler.dll" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityScriptsCompiler.dll".
+
+  Scripts -> /Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityScriptsCompiler.dll
+
+  Copying file from "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/UnityScriptsCompiler.pdb" to "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/bin/Debug/UnityScriptsCompiler.pdb".
+
+BridgeNetCompilerTask:
+  Bridge started
+
+      To enable detailed logging, configure "logging" in bridge.json.
+
+      https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
+
+  Bridge done
+
+Done Building Project "/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/Scripts.csproj" (Rebuild target(s)).
+
+
+
+Build succeeded.
+
+
+
+"/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/Scripts.csproj" (Rebuild target) (1) ->
+
+(CoreCompile target) -> 
+  /Users/alexluna/Downloads/a++/astUnity/Assets/Scripts/Grid.cs(124,5): warning CS0618: 'LineRenderer.SetVertexCount(int)' is obsolete: 'Use positionCount instead.' [/Users/alexluna/Projects/Luna/packages/3.5.0/pipeline/templates/LunaCompiler/Scripts/Scripts.csproj]
+
+
+    1 Warning(s)
+    0 Error(s)
+
+
+
+Time Elapsed 00:00:04.93
+
+Source code compiled successfully!
+report@code:build 5567.01
+report@diagnostics:verify 0.43
+report@diagnostics:upload 1694.48
+report@code:stage 4035.48
+[ Stage3 ] Code compiled and bundled successfully.
+report@package:stage 648.93
+[ Stage4 ] Target platform: develop
+[ Stage4 ] Package bundled successfully
+report@assets:stats 0.22

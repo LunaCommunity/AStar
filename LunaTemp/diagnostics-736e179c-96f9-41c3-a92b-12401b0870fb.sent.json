@@ -1,0 +1,120 @@
+{
+    "BuildID": "736e179c-96f9-41c3-a92b-12401b0870fb",
+    "Command": "project:build",
+    "ProjectID": "ae09df64-06a4-4b81-bf4c-3eaa28a09140",
+    "ProjectStateHash": "958164677539d5705b51986b679cd8731df4762be87c9a965f83ad68ff4f2336",
+    "StageCompletedAt": 2,
+    "EarliestFatalError": 0,
+    "StartTime": 1651028288161,
+    "EndTime": 1651028294000,
+    "PlaygroundUserID": 3203,
+    "OperatingSystem": "darwin",
+    "UnityVersion": "2019.4.33f1",
+    "LunaVersion": "3.5.0",
+    "LogCount": 4,
+    "Logs": [
+        {
+            "LogID": "615345fd-28f8-4a01-ba26-db3fe4c6269b",
+            "Order": 0,
+            "Timestamp": 1651028292743,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "GUI/Text Shader: Tags: \"IGNOREPROJECTOR\"=\"true\" \"PREVIEWTYPE\"=\"Plane\" \"QUEUE\"=\"Transparent\" \"RENDERTYPE\"=\"Transparent\" \"LIGHTMODE\"=\"ALWAYS\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "GUI/Text Shader: Tags: \"IGNOREPROJECTOR\"=\"true\" \"PREVIEWTYPE\"=\"Plane\" \"QUEUE\"=\"Transparent\" \"RENDERTYPE\"=\"Transparent\" \"LIGHTMODE\"=\"ALWAYS\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "a5b1c034-21dd-4e77-8c1a-b413f205fa09",
+            "Order": 1,
+            "Timestamp": 1651028293159,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 7,
+            "ErrorSubType": 8,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Code > Runtime Analysis tab and hit \"Start Analysis\""
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "6f0050df-49e1-49e4-b66c-a338ee84b6c3",
+            "Order": 2,
+            "Timestamp": 1651028293160,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1015",
+            "Description": "This TMP version is not fully supported",
+            "Details": [
+                "The incorrect Text Mesh Pro for this unity version is in use, please update to the recommended version: {0}"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "2.0.0"
+            ],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "52e9b6d0-1c7e-4b91-910f-65dc00614b0c",
+            "Order": 3,
+            "Timestamp": 1651028293162,
+            "Stage": 1,
+            "Severity": 1,
+            "ErrorType": 4,
+            "ErrorSubType": 5,
+            "ErrorCode": "LP1010",
+            "Description": "Looks like a collider was scaled, this might affect performance.",
+            "Details": [
+                "NodeTarget",
+                "NodeTarget",
+                "NodeStart",
+                "NodeStart",
+                "ZeroLayer",
+                "ZeroLayer",
+                "Obstacle",
+                "Obstacle",
+                "Obstacle 2",
+                "Obstacle",
+                "Cell",
+                "Obstacle 1",
+                "Obstacle",
+                "Obstacle",
+                "Obstacle",
+                "Background"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 16,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        }
+    ]
+}
